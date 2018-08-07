@@ -1,5 +1,5 @@
 class CustomersController < ApplicationController
-  require 'scv'
+  require 'csv'
   def index
     @customers = Customer.all
   end
